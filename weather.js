@@ -9,6 +9,7 @@ const location_not_found = document.querySelector('.location-not-found');
 const weather_body = document.querySelector('.weather-body');
 
 async function checkWeather(city) {
+    //here i removed my open weather api token due to security concerns, as suggested by GitHub. This means the weaher app functionality won't work.
     const api_key = "";
     const url = `${city}&appid=${api_key}`;
 
